@@ -1,48 +1,77 @@
-# 🌿 Lingjun Liu
+# 🌿 刘令君
 
-_Ph.D. Candidate in Demography · Fudan University_  
-_Computational Social Science · Digital Sociology · Gender & Technology_
-
----
-
-## 🧭 Welcome
-
-This site is my **knowledge structure in progress** — a place where I organize and share notes, talks, and reflections from my research and learning.
-
-Rather than a CV, this page documents how my ideas evolve:  
-from computational sociology methods, to theories of platform mechanisms, gender, and digital life.
-
-> “I treat GitHub as a public notebook — a transparent record of how I learn, connect, and create.”
+_复旦大学 人口学博士生_
+_计算社会科学 · 数字社会学 · 性别与技术_
 
 ---
 
-## 🧩 Knowledge Map
+## 🧭 欢迎来到这里
 
-- **Research Directions**  
-  Computational social science, platform studies, gender and technology, social media and fertility, ageism and health inequality.
+这个站点是我正在搭建的**知识结构**：记录学习、研究与思考过程中的笔记、演讲和随笔。
 
-- **Method Toolbox**  
-  Text mining · Network analysis · APC-I · DEA-SBM · PVAR · Markov models.
+它不是传统意义上的简历，而是一份思想生长的轨迹：从计算社会学方法，到平台机制、性别与数字生活的理论探索。
 
-- **Learning Notes**  
-  Ongoing summaries of books, datasets, and methods I’m exploring.
+> “我把 GitHub 当作公开笔记本——在这里透明记录自己的学习、联结与创造。”
 
 ---
 
-## 📚 Knowledge Folders
+## 👋 关于我
 
-| Folder | Description |
+- 🎓 **学术焦点。** 人口学博士生，关注平台技术如何塑造家庭、健康与性别结果。
+- 🧪 **方法优势。** 擅长将计算文本分析、因果推断与人口模型结合的混合方法研究。
+- 🤝 **当前合作。** 与数据科学、公共卫生、社会组织等跨学科伙伴合作，将研究落地为公共影响。
+- 🧠 **近期钻研。** 多状态马尔可夫模型、因果中介分析、负责任的人工智能框架。
+
+---
+
+## 🧩 知识地图
+
+这里是我工作主题的动态纲要。完整结构请见 [知识地图总览](./knowledge-map.md)。
+
+- **研究方向**
+  - 平台治理与生育行为
+  - 性别、技术与照护基础设施
+  - 老龄化、年龄歧视与数字健康公平
+  - 城市人口与迁移叙事
+- **方法工具箱**
+  - 文本分析：主题模型、Transformer 表征、半自动标注
+  - 因果推断：DID、合成控制、因果森林、RIF-OB 分解
+  - 时间与状态模型：PVAR、多状态马尔可夫、轨迹聚类
+  - 可解释性与诊断：SHAP 分析、敏感性检验、稳健性流程
+- **知识资产**
+  - 书籍、数据与经典论文的阅读摘要
+  - 记录建模决策与反思的项目日志
+  - 课堂与工作坊的授课材料
+
+---
+
+## 📚 知识目录
+
+| 文件夹 | 简介 |
 |---------|-------------|
-| [`notes/`](./notes) | My learning notes on theories, data, and methods. |
-| [`talks/`](./talks) | Slides and presentations from classes, workshops, and seminars. |
-| [`research/`](./research) | Project summaries and computational workflows. |
-| [`roadmap/`](./roadmap) | Conceptual maps, frameworks, and long-term research plans. |
+| [`notes/`](./notes) | 阅读批注、方法拆解、数据日志。 |
+| [`talks/`](./talks) | 课堂、工作坊与讲座的幻灯与讲稿。 |
+| [`research/`](./research) | 研究项目概览、复现流程与可运行笔记本。 |
+| [`roadmap/`](./roadmap) | 概念地图、实验管线、长期研究规划。 |
+
+> _提示：每篇笔记附有标签（如 `#text-mining`、`#causal-inference`）与“最后更新”时间，方便追踪想法演化。_
 
 ---
 
-## 🌱 Philosophy
+## 🛠 应用实践
 
-> “Core algorithms × Compounding” —  
-> lifelong learning as a process of entropy reduction and system thinking.
+| 场景 | 说明 |
+|------|------|
+| 公共政策咨询 | 为人口与平台治理议题提供数据支持与政策建议，结合文本分析与因果推断。 |
+| 学术协作 | 与跨学科团队共建混合方法研究流程，沉淀复现脚本与可视化模板。 |
+| 教学工作坊 | 设计实践导向课程，帮助学习者掌握多状态模型、解释性分析等工具。 |
+| 社会创新项目 | 与社会组织合作，将研究成果转化为性别与照护议题的数智化解决方案。 |
+
+---
+
+## 🌱 研究理念
+
+> “核心算法 × 复利”——
+> 以系统思维持续降低认知熵，推动长期成长。
 
 📬 [Email](mailto:lingjunliu21@m.fudan.edu.cn) · [Google Scholar](https://scholar.google.com) · [LinkedIn](https://linkedin.com)
