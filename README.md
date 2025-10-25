@@ -1,4 +1,4 @@
-# LingjunLiu 刘苓君的个人主页
+# LingjunLiu (刘苓君)
 ---
 ## About me 关于我
 👋 Ph.D in demography at Fudan University 复旦大学人口学博士  
