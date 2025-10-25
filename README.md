@@ -65,7 +65,7 @@
 |-----------|------|------------|------|
 | Topic model | [Topic_model](https://github.com/Lingjun-Liu/Topic_model) | LDA,STM,BerTopic | ✅ Completed |
 | Word embeddings | [Word_embeddings](https://github.com/Lingjun-Liu/Word_embeddings)| Vensim,Glove,Bert,Finetone | ✅ Completed |
-| Sentiment analysis | [text-analysis](https://github.com/Lingjun-Liu/text-analysis) | 基于情感词典的，基于机器学习的 | ✅ Completed |
+| Sentiment analysis | [Sentiment_analysis](https://github.com/Lingjun-Liu/Sentiment_analysis) | 基于情感词典的，基于机器学习的 | ✅ Completed |
 ---
 
  - **Machine learning**  
