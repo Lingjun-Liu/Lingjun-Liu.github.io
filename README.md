@@ -33,7 +33,7 @@
 
 | 类别 | Repository | 现有的内容 | 状态 |
 |-----------|------|------------|------|
-| **Web scraping** | [Web_scraping](https://github.com/Lingjun-Liu/web_scrapling) | 北大法宝爬取，豆瓣小组，微博爬取 | ✅ Completed |  
+| **Web scraping** | [Web_scraping](https://github.com/Lingjun-Liu/web_scraping) | 北大法宝爬取，豆瓣小组，微博爬取 | ✅ Completed |  
 | **Via API** | [Api_getdata](https://github.com/Lingjun-Liu/Api_getdata) | twitte,高德地图POI数据，百度地区POI数据 | 🟡 In Progress | 
 ---
 
