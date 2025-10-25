@@ -33,28 +33,28 @@
 
 | 类别 | Repository | 现有的内容 | 状态 |
 |-----------|------|------------|------|
-| **Web scraping** | [Web_scraping](https://github.com/Lingjun-Liu/web_scraping) | 北大法宝爬取，豆瓣小组，微博爬取 | ✅ Completed |  
-| **Via API** | [Api_getdata](https://github.com/Lingjun-Liu/Api_getdata) | twitte,高德地图POI数据，百度地区POI数据 | 🟡 In Progress | 
+| **Web scraping** | [Web_scraping](https://github.com/Lingjun-Liu/web_scraping) | 北大法宝爬取，豆瓣小组，微博爬取 | ✅ Completed |
+| **Via API** | [Api_getdata](https://github.com/Lingjun-Liu/Api_getdata) | twitte,高德地图POI数据，百度地区POI数据 | 🟡 In Progress |
 ---
 
 - **Visualization**  
 
 | 类别 | Repository | 现有的内容 | 状态 |
 |-----------|------|------------|------|
-| **Lexis Diagram** | [Lexis_diagram](https://github.com/Lingjun-Liu/Lexis_diagram) | 列克西斯图简易版本，列克西斯图与成分 | ✅ Completed | 
+| **Lexis Diagram** | [Lexis_diagram](https://github.com/Lingjun-Liu/Lexis_diagram) | 列克西斯图简易版本，列克西斯图与成分 | ✅ Completed |
 | **Geospatial mapping** | [Geospatial-analysis](https://github.com/Lingjun-Liu/Geospatial-mapping) | 全球分布图，中国的分布图 | 🟡 In Progress |
-| **Heatmap** | [Heatmap](https://github.com/Lingjun-Liu/Heatmap) | 样本分布的热力图 | ✅ Completed | 
-| **Table1** | [Table1](https://github.com/Lingjun-Liu/Table1) | 论文中的描述性统计表1 | ✅ Completed | 
+| **Heatmap** | [Heatmap](https://github.com/Lingjun-Liu/Heatmap) | 样本分布的热力图 | ✅ Completed |
+| **Table1** | [Table1](https://github.com/Lingjun-Liu/Table1) | 论文中的描述性统计表1 | ✅ Completed |
 ---
 
 - **Inferential Statistics**  
 
 | 类别 | Repository | 现有的内容 | 状态 |
 |-----------|------|------------|------|
-| **Regressions** | [Regressions](https://github.com/Lingjun-Liu/Regressions) | CRE，HLM | ✅ Completed | 
-| **Decompositions** | [Decompositions](https://github.com/Lingjun-Liu/Decompositions) | SHAP,Oaxaca-Blinder,RIF-OB | ✅ Completed | 
-| **Causal Inference** | [Causal_inference](https://github.com/Lingjun-Liu/Causal_inference) | PSM,DID,IV,DML | 🟡 In Progress |  
-| **Markov models** | [Markov_models](https://github.com/Lingjun-Liu/Markov_models) | Markov chain，Multi-state Markov models | ✅ Completed |  
+| **Regressions** | [Regressions](https://github.com/Lingjun-Liu/Regressions) | CRE，HLM | ✅ Completed |
+| **Decompositions** | [Decompositions](https://github.com/Lingjun-Liu/Decompositions) | SHAP,Oaxaca-Blinder,RIF-OB | ✅ Completed |
+| **Causal Inference** | [Causal_inference](https://github.com/Lingjun-Liu/Causal_inference) | PSM,DID,IV,DML | 🟡 In Progress |
+| **Markov models** | [Markov_models](https://github.com/Lingjun-Liu/Markov_models) | Markov chain，Multi-state Markov models | ✅ Completed |
 | **Latent Class Analysis** | [Latent_class](https://github.com/Lingjun-Liu/Latent_class) | LPA、LCGA、GMM | ✅ Completed |
 --- 
 
