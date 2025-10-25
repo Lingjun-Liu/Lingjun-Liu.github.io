@@ -4,11 +4,11 @@
 👋 Ph.D in demography at Fudan University 复旦大学人口学博士  
 
 📧 Email：lingjunliu21@m.fudan.edu.cn ;lingjunl@126.com  
-🔗 [Google Scholar](https://scholar.google.co.jp/citations?user=TsU6bnMAAAAJ&hl=en) | [ResearchGate](https://www.researchgate.net/profile/Lingjun-Liu-4?ev=hdr_xprf)
+🔗 [Google Scholar](https://scholar.google.co.jp/citations?user=TsU6bnMAAAAJ&hl=en) | [ResearchGate](https://www.researchgate.net/profile/Lingjun-Liu-4?ev=hdr_xprf)  
 💻 Python · R · Stata · QGIS，欢迎交流
 
 ---
-## Research Interests / 研究兴趣
+## Research Interests / 研究兴趣  
 - Traditional demographic studies
 - Aging and the life course
 - Social inequality
@@ -21,23 +21,66 @@
 | Computational Social Science | 计算社会科学 | Text-as-data (topic modeling, word embeddings, sentiment analysis), Machine learning |
 ---
 ## 内容导航
-- 📄 **CV 简历**：详见 `CV_LingjunLiu.pdf`。
+- 📄 **CV 简历**：详见 [CV_LingjunLiu.pdf](https://github.com/lingjunliu/lingjunliu.github.io/blob/main/CV_LingjunLiu.pdf)，CV的overleaf模板见[CV-](https://github.com/lingjunliu/CV-)
 - 📚 **Notes 学习笔记**：研究方法与工具的学习记录。
 - 💻 **Code 代码示例**：分析流程与可复用脚本。
 
 
 ### Repository Map
 
-| 方法论类别 | 方向 | Repository | 状态 |
-|-----------|------|------------|------|
-| **Data & Visualization** | Web scraping / API data | [data-collection](https://github.com/lingjunliu/data-collection) | 📝 规划中 |
-| | Statistical visualization | [data-visualization](https://github.com/lingjunliu/data-visualization) | 📝 规划中 |
-| | Geospatial mapping | [geospatial-analysis](https://github.com/lingjunliu/geospatial-analysis) | 📝 规划中 |
-| **Inferential Statistics** | Regressions & decompositions | [statistical-modeling](https://github.com/lingjunliu/statistical-modeling) | 📝 规划中 |
-| | Causal inference | [causal-inference](https://github.com/lingjunliu/causal-inference) | 📝 规划中 |
-| | Multi-state Markov models | [markov-models](https://github.com/lingjunliu/markov-models) | 📝 规划中 |
-| | Latent class trajectory analysis | [trajectory-analysis](https://github.com/lingjunliu/trajectory-analysis) | 📝 规划中 |
-| **Computational Social Science** | Topic modeling / Word embeddings / Sentiment analysis | [text-analysis](https://github.com/lingjunliu/text-analysis) | 📝 规划中 |
-| | Machine learning | [machine-learning](https://github.com/lingjunliu/machine-learning) | 📝 规划中 |
 
+- **Data Collecting**  
+
+| 类别 | Repository | 现有的内容 | 状态 |
+|-----------|------|------------|------|
+| **Web scraping** | [Web_scraping](https://github.com/lingjunliu/web_scrapling) | 北大法宝爬取，豆瓣小组，微博爬取 | ✅ Completed |  
+| **Via API** | [Api_getdata](https://github.com/lingjunliu/Api_getdata) | twitte,高德地图POI数据，百度地区POI数据 | 🟡 In Progress | 
+---
+
+- **Visualization**  
+
+| 类别 | Repository | 现有的内容 | 状态 |
+|-----------|------|------------|------|
+| **Lexis Diagram** | [Lexis_diagram](https://github.com/lingjunliu/Lexis_diagram) | 列克西斯图简易版本，列克西斯图与成分 | ✅ Completed | 
+| **Geospatial mapping** | [Geospatial-analysis](https://github.com/lingjunliu/Geospatial-mapping) | 全球分布图，中国的分布图 | 🟡 In Progress |
+| **Heatmap** | [Heatmap](https://github.com/lingjunliu/Heatmap) | 样本分布的热力图 | ✅ Completed | 
+| **Table1** | [Table1](https://github.com/lingjunliu/Table1) | 论文中的描述性统计表1 | ✅ Completed | 
+---
+
+- **Inferential Statistics**  
+
+| 类别 | Repository | 现有的内容 | 状态 |
+|-----------|------|------------|------|
+| **Regressions** | [Regressions](https://github.com/lingjunliu/Regressions) | CRE，HLM | ✅ Completed | 
+| **Decompositions** | [Decompositions](https://github.com/lingjunliu/Decompositions) | SHAP,Oaxaca-Blinder,RIF-OB | ✅ Completed | 
+| **Causal Inference** | [Causal_inference](https://github.com/lingjunliu/Causal_inference) | PSM,DID,IV,DML | 🟡 In Progress |  
+| **Markov models** | [Markov_models](https://github.com/lingjunliu/Markov_models) | Markov chain，Multi-state Markov models | ✅ Completed |  
+| **Latent Class Analysis** | [Latent_class](https://github.com/lingjunliu/Latent_class) | LPA、LCGA、GMM | ✅ Completed |
+--- 
+
+-  **Computational Social Science**  
+ - **Text-as-data**  
+
+| 类别 | Repository | 现有的内容 | 状态 |
+|-----------|------|------------|------|
+| Topic model | [Topic_model](https://github.com/lingjunliu/Topic_model) | LDA,STM,BerTopic | ✅ Completed |
+| Word embeddings | [Word_embeddings](https://github.com/lingjunliu/Word_embeddings)| Vensim,Glove,Bert,Finetone | ✅ Completed |
+| Sentiment analysis | [text-analysis](https://github.com/lingjunliu/text-analysis) | 基于情感词典的，基于机器学习的 | ✅ Completed |
+---
+
+ - **Machine learning**  
+
+| 类别 | Repository | 现有的内容 | 状态 |
+|-----------|------|------------|------|
+| 待添加 | 待添加 | 待添加 | 📝 规划中 |
+---
+
+- **其他**  
+
+| 类别 | Repository | 现有的内容 | 状态 |
+|-----------|------|------------|------|
+| **PublicDatasets** | [PublicDatasets](https://github.com/lingjunliu/PublicDatasets) | 老年追踪（中国/美国）；流动人口数据；IAT数据集；中国社会调查；东亚社会调查 | 🟡 In Progress |
+| **Heterogeneity** | [Heterogeneity](https://github.com/lingjunliu/Heterogeneity) | What works? For whom? Conditions? | 🟡 In Progress |
+| **深度好文** | [Reading_papers](https://github.com/lingjunliu/Reading_papers) | 启发性的文章 | 🟡 In Progress |
+---
 
