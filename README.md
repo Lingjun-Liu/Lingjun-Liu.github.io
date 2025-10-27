@@ -81,6 +81,6 @@
 |-----------|------|------------|------|
 | **PublicDatasets** | [PublicDatasets](https://github.com/Lingjun-Liu/PublicDatasets) | 老年追踪（中国/美国）；流动人口数据；IAT数据集；中国社会调查；东亚社会调查 | 🟡 In Progress |
 | **Heterogeneity** | [Heterogeneity](https://github.com/Lingjun-Liu/Heterogeneity) | What works? For whom? Conditions? | 🟡 In Progress |
-| **深度好文** | [Reading_papers](https://github.com/Lingjun-Liu/Reading_papers) | 启发性的文章 | 🟡 In Progress |
+| **Awesome Reading List** | [Reading-list](https://github.com/Lingjun-Liu/Reading-list) | 启发性的文章 | 🟡 In Progress |
 ---
 
