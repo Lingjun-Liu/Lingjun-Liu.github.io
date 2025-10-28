@@ -17,7 +17,7 @@
 | Category | Focus | Examples |
 |----------|-------|------------|
 | Data & Visualization | 数据获取与展示 | Web scraping, API-based extraction, Statistical visualization, Geospatial mapping |
-| Inferential Statistics | 推断与建模 | Regressions and decompositions, Causal inference, Multi-state Markov models, Latent class trajectory analysis |
+| Inferential Statistics | 推断与建模 | Regressions and decompositions, Causal inference, Multi-state Markov models, Latent class trajectory analysis, Age-Period-Cohort analysis |
 | Computational Social Science | 计算社会科学 | Text-as-data (topic modeling, word embeddings, sentiment analysis), Machine learning |
 ---
 ## 内容导航
@@ -34,7 +34,7 @@
 | 类别 | Repository | 现有的内容 | 状态 |
 |-----------|------|------------|------|
 | **Web scraping** | [Web_scraping](https://github.com/Lingjun-Liu/web_scraping) | 北大法宝爬取，豆瓣小组，微博爬取 | ✅ Completed |
-| **Via API** | [Api_getdata](https://github.com/Lingjun-Liu/Api_getdata) | twitte,高德地图POI数据，百度地区POI数据 | 🟡 In Progress |
+| **Via API** | [Api_getdata](https://github.com/Lingjun-Liu/Api_getdata) | APIs，JSON，地图数据 | ✅ Completed |
 ---
 
 - **Visualization**  
@@ -43,7 +43,6 @@
 |-----------|------|------------|------|
 | **Lexis Diagram** | [Lexis_diagram](https://github.com/Lingjun-Liu/Lexis_diagram) | 列克西斯图简易版本，列克西斯图与成分 | ✅ Completed |
 | **Geospatial mapping** | [Geospatial-analysis](https://github.com/Lingjun-Liu/Geospatial-mapping) | 全球分布图，中国的分布图 | 🟡 In Progress |
-| **Heatmap** | [Heatmap](https://github.com/Lingjun-Liu/Heatmap) | 样本分布的热力图 | ✅ Completed |
 | **Table1** | [Table1](https://github.com/Lingjun-Liu/Table1) | 论文中的描述性统计表1 | ✅ Completed |
 ---
 
@@ -81,6 +80,6 @@
 |-----------|------|------------|------|
 | **PublicDatasets** | [PublicDatasets](https://github.com/Lingjun-Liu/PublicDatasets) | 老年追踪（中国/美国）；流动人口数据；IAT数据集；中国社会调查；东亚社会调查 | 🟡 In Progress |
 | **Heterogeneity** | [Heterogeneity](https://github.com/Lingjun-Liu/Heterogeneity) | What works? For whom? Conditions? | 🟡 In Progress |
-| **Awesome Reading List** | [Reading-list](https://github.com/Lingjun-Liu/Reading-list) | 启发性的文章 | 🟡 In Progress |
+| **Awesome Reading List** | [Reading-list](https://github.com/Lingjun-Liu/Reading-list) | 好的学习资料和文献 | 🟡 In Progress |
 ---
 
