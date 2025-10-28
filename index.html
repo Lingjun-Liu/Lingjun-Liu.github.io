@@ -8,7 +8,7 @@
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
             line-height: 1.6;
-            max-width: 900px;
+            max-width: 1200px;
             margin: 0 auto;
             padding: 20px;
             color: #333;
@@ -68,29 +68,113 @@
         li {
             margin: 8px 0;
         }
+        /* --- New theme and layout styles --- */
+        :root {
+            --bg: #f5f7fb;
+            --card-bg: #ffffff;
+            --text: #333333;
+            --muted: #6b7280;
+            --primary: #0366d6;
+            --border: #e5e7eb;
+            --shadow: 0 1px 2px rgba(0,0,0,0.04), 0 8px 24px rgba(149,157,165,0.15);
+        }
+        body { background: var(--bg); }
+        .layout {
+            display: grid;
+            grid-template-columns: 260px 1fr;
+            gap: 24px;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        .sidebar {
+            position: sticky;
+            top: 20px;
+            height: max-content;
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            box-shadow: var(--shadow);
+            padding: 16px;
+        }
+        .profile { text-align: center; margin-bottom: 16px; }
+        .profile img {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 1px solid var(--border);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+        .profile .name { margin-top: 10px; font-weight: 600; color: var(--text); }
+        .toc { margin-top: 8px; padding-left: 0; list-style: none; }
+        .toc li { margin: 8px 0; }
+        .toc a { color: var(--primary); text-decoration: none; font-size: 14px; }
+        .toc a:hover { text-decoration: underline; }
+        .toc .sub { padding-left: 14px; font-size: 13px; color: var(--muted); }
+        .toc .sub-2 { padding-left: 28px; font-size: 12px; }
+        .content-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            box-shadow: var(--shadow);
+            padding: 20px;
+            margin-bottom: 16px;
+        }
+        table { background: #fff; border-radius: 8px; overflow: hidden; }
+        @media (max-width: 900px) {
+            .layout { grid-template-columns: 1fr; }
+            .sidebar { position: static; }
+        }
     </style>
 </head>
 <body>
-    <h1>LingjunLiu 刘苓君的个人主页</h1>
-    <hr>
+    <div class="layout">
+        <aside class="sidebar">
+            <div class="profile">
+                <img src="photo_llj.jpg" alt="Profile photo" />
+                <div class="name">Lingjun Liu 刘苓君</div>
+            </div>
+            <nav>
+                <ul class="toc">
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#interests">Research Interests</a></li>
+                    <li><a href="#toolkit">Methodological Toolkit</a></li>
+                    <li><a href="#map">Repository Map</a></li>
+                    <li class="sub"><a href="#data-collecting">Data Collecting</a></li>
+                    <li class="sub"><a href="#visualization">Visualization</a></li>
+                    <li class="sub"><a href="#inferential">Inferential Statistics</a></li>
+                    <li class="sub"><a href="#computational-social-science">Computational Social Science</a></li>
+                    <li class="sub sub-2"><a href="#css-text">Text-as-data</a></li>
+                    <li class="sub sub-2"><a href="#ml">Machine learning</a></li>
+                    <li class="sub"><a href="#others">其他</a></li>
+                </ul>
+            </nav>
+        </aside>
 
-    <h2>About me 关于我</h2>
-    <p>👋 Ph.D in demography at Fudan University 复旦大学人口学博士</p>
-    <p>📧 Email：lingjunliu21@m.fudan.edu.cn ;lingjunl@126.com</p>
-    <p>🔗 <a href="https://scholar.google.co.jp/citations?user=TsU6bnMAAAAJ&hl=en">Google Scholar</a> | <a href="https://www.researchgate.net/profile/Lingjun-Liu-4?ev=hdr_xprf">ResearchGate</a></p>
-    <p>💻 Python · R · Stata · QGIS，欢迎交流</p>
-    <hr>
+        <div class="content">
+            <div class="content-card">
+                <h1>LingjunLiu 刘苓君的个人主页</h1>
+                <hr>
+                <h2 id="about">About me 关于我</h2>
+                <p>👋 Ph.D in demography at Fudan University 复旦大学人口学博士</p>
+                <p>📧 Email：lingjunliu21@m.fudan.edu.cn ;lingjunl@126.com</p>
+                <p>🔗 <a href="https://scholar.google.co.jp/citations?user=TsU6bnMAAAAJ&hl=en">Google Scholar</a> | <a href="https://www.researchgate.net/profile/Lingjun-Liu-4?ev=hdr_xprf">ResearchGate</a></p>
+                <p>💻 Python · R · Stata · QGIS，欢迎交流</p>
+            </div>
 
-    <h2>Research Interests / 研究兴趣</h2>
-    <ul>
-        <li>Traditional demographic studies</li>
-        <li>Aging and the life course</li>
-        <li>Social inequality</li>
-        <li>Social policy</li>
-    </ul>
+            <div class="content-card">
+                <h2 id="interests">Research Interests / 研究兴趣</h2>
+                <ul>
+                    <li>Traditional demographic studies</li>
+                    <li>Aging and the life course</li>
+                    <li>Social inequality</li>
+                    <li>Social policy</li>
+                </ul>
+            </div>
 
-    <h2>Methodological Toolkit / 方法论兴趣</h2>
-    <table>
+            <div class="content-card">
+                <h2 id="toolkit">Methodological Toolkit / 方法论兴趣</h2>
+                <table>
         <thead>
             <tr>
                 <th>Category</th>
@@ -115,20 +199,23 @@
                 <td>Text-as-data (topic modeling, word embeddings, sentiment analysis), Machine learning</td>
             </tr>
         </tbody>
-    </table>
-    <hr>
+                </table>
+            </div>
 
-    <h2>内容导航</h2>
-    <ul>
-        <li>📄 <strong>CV 简历</strong>：详见 <a href="https://github.com/Lingjun-Liu/lingjunliu.github.io/blob/main/CV_LingjunLiu.pdf">CV_LingjunLiu.pdf</a>，CV的overleaf模板见<a href="https://github.com/Lingjun-Liu/CV-">CV-</a></li>
-        <li>📚 <strong>Notes 学习笔记</strong>：研究方法与工具的学习记录。</li>
-        <li>💻 <strong>Code 代码示例</strong>：分析流程与可复用脚本。</li>
-    </ul>
+            <div class="content-card">
+                <h2>内容导航</h2>
+                <ul>
+                    <li>📄 <strong>CV 简历</strong>：详见 <a href="https://github.com/Lingjun-Liu/lingjunliu.github.io/blob/main/CV_LingjunLiu.pdf">CV_LingjunLiu.pdf</a>，CV的overleaf模板见<a href="https://github.com/Lingjun-Liu/CV-">CV-</a></li>
+                    <li>📚 <strong>Notes 学习笔记</strong>：研究方法与工具的学习记录。</li>
+                    <li>💻 <strong>Code 代码示例</strong>：分析流程与可复用脚本。</li>
+                </ul>
+            </div>
 
-    <h3>Repository Map</h3>
+            <div class="content-card">
+                <h3 id="map">Repository Map</h3>
 
-    <h4>Data Collecting</h4>
-    <table>
+                <h4 id="data-collecting">Data Collecting</h4>
+                <table>
         <thead>
             <tr>
                 <th>类别</th>
@@ -147,14 +234,14 @@
             <tr>
                 <td><strong>Via API</strong></td>
                 <td><a href="https://github.com/Lingjun-Liu/Api_getdata">Api_getdata</a></td>
-                <td>twitte,高德地图POI数据，百度地区POI数据</td>
-                <td>🟡 In Progress</td>
+                <td>APIs，JSON，地图数据</td>
+                <td>✅ Completed</td>
             </tr>
         </tbody>
-    </table>
+                </table>
 
-    <h4>Visualization</h4>
-    <table>
+                <h4 id="visualization">Visualization</h4>
+                <table>
         <thead>
             <tr>
                 <th>类别</th>
@@ -177,22 +264,16 @@
                 <td>🟡 In Progress</td>
             </tr>
             <tr>
-                <td><strong>Heatmap</strong></td>
-                <td><a href="https://github.com/Lingjun-Liu/Heatmap">Heatmap</a></td>
-                <td>样本分布的热力图</td>
-                <td>✅ Completed</td>
-            </tr>
-            <tr>
                 <td><strong>Table1</strong></td>
                 <td><a href="https://github.com/Lingjun-Liu/Table1">Table1</a></td>
                 <td>论文中的描述性统计表1</td>
                 <td>✅ Completed</td>
             </tr>
         </tbody>
-    </table>
+                </table>
 
-    <h4>Inferential Statistics</h4>
-    <table>
+                <h4 id="inferential">Inferential Statistics</h4>
+                <table>
         <thead>
             <tr>
                 <th>类别</th>
@@ -233,11 +314,11 @@
                 <td>✅ Completed</td>
             </tr>
         </tbody>
-    </table>
+                </table>
 
-    <h4>Computational Social Science</h4>
-    <h5>Text-as-data</h5>
-    <table>
+                <h4 id="computational-social-science">Computational Social Science</h4>
+                <h5 id="css-text">Text-as-data</h5>
+                <table>
         <thead>
             <tr>
                 <th>类别</th>
@@ -266,10 +347,10 @@
                 <td>✅ Completed</td>
             </tr>
         </tbody>
-    </table>
+                </table>
 
-    <h5>Machine learning</h5>
-    <table>
+                <h5 id="ml">Machine learning</h5>
+                <table>
         <thead>
             <tr>
                 <th>类别</th>
@@ -286,10 +367,10 @@
                 <td>📝 规划中</td>
             </tr>
         </tbody>
-    </table>
+                </table>
 
-    <h4>其他</h4>
-    <table>
+                <h4 id="others">其他</h4>
+                <table>
         <thead>
             <tr>
                 <th>类别</th>
@@ -312,14 +393,16 @@
                 <td>🟡 In Progress</td>
             </tr>
             <tr>
-                <td><strong>深度好文</strong></td>
-                <td><a href="https://github.com/Lingjun-Liu/Reading_papers">Reading_papers</a></td>
-                <td>启发性的文章</td>
+                <td><strong>Awesome Reading List</strong></td>
+                <td><a href="https://github.com/Lingjun-Liu/Reading-list">Reading-list</a></td>
+                <td>好的学习资料和文献</td>
                 <td>🟡 In Progress</td>
             </tr>
         </tbody>
-    </table>
+                </table>
+            </div>
+        </div>
+    </div>
 
 </body>
 </html>
-
