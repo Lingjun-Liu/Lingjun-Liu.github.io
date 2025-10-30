@@ -10,7 +10,9 @@
 ---
 ## Research Interests / 研究兴趣  
 - Traditional demographic studies
-- Aging and the life course
+- Aging 
+- Social determents of health
+- life course perspective
 - Social inequality
 - Social policy
 ## Methodological Toolkit / 方法论兴趣
