@@ -55,7 +55,7 @@
 | **Regressions** | [Regressions](https://github.com/Lingjun-Liu/Regressions) | CRE，HLM | ✅ Completed |
 | **Decompositions** | [Decompositions](https://github.com/Lingjun-Liu/Decompositions) | SHAP,Oaxaca-Blinder,RIF-OB | ✅ Completed |
 | **Causal Inference** | [Causal_inference](https://github.com/Lingjun-Liu/Causal_inference) | PSM,DID,IV,DML | 🟡 In Progress |
-| **Markov models** | [Markov_models](https://github.com/Lingjun-Liu/Markov_models) | Markov chain，Multi-state Markov models | ✅ Completed |
+| **Multistate models** | [Multistate_models](https://github.com/Lingjun-Liu/Multistate_models) | Markov chain，Multi-state Markov models | ✅ Completed |
 | **Latent Class Analysis** | [Latent_class](https://github.com/Lingjun-Liu/Latent_class) | LPA、LCGA、GMM | ✅ Completed |
 --- 
 
